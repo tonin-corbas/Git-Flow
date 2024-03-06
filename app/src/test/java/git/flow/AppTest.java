@@ -14,7 +14,7 @@ class AppTest {
 
     @Test void appSumaCorrecta() {
         App classUnderTest = new App();
-        assertEquals(10, classUnderTest.Sumar(2, 5));;
+        assertEquals(7, classUnderTest.Sumar(2, 5));;
     }
 }
 
