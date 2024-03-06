@@ -9,7 +9,7 @@ public class App {
     }
 
 public int Sumar(int n1, int n2){
-    return n1 + n1 + n2;
+    return n1 + n2;
 }
 
     public static void main(String[] args) {
