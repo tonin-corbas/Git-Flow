@@ -16,5 +16,10 @@ class AppTest {
         App classUnderTest = new App();
         assertEquals(7, classUnderTest.Sumar(3, 4));;
     }
+
+    @Test void appRestaCorrecta() {
+        App classUnderTest = new App();
+        assertEquals(3, classUnderTest.Sumar(5, 2));;
+    }
 }
 
